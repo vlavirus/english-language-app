@@ -1,0 +1,28 @@
+$w: 13em;
+$h: 19em;
+$f: $h/$w;
+$n: 7;
+$g: 1em;
+$c0: #fac691;
+$c1: #829fb1;
+
+.default-box {
+	border-radius: 25px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 80px;
+	line-height: 130px;
+	font-weight: 700;
+	text-align: center;
+	color: #d4d3d3;
+	border: 5px solid;
+	border-color: #fff;
+	cursor: pointer;
+	&:hover {
+		color: #8a8a8a;
+	}
+	&__number {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

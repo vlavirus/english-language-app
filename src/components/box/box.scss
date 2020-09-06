@@ -1,0 +1,36 @@
+$c0: #fac691;
+$c1: #829fb1;
+
+.box {
+	border-radius: 25px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 80px;
+	line-height: 130px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	border: 5px solid;
+	border-color: #fff;
+	cursor: pointer;
+	&__number {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.blue-dark {
+	background: linear-gradient(var(--ang, 180deg), #5a71f1, #546bee);
+	&:hover {
+		background: linear-gradient(var(--ang, 180deg), #5aa0f1, #5497ee);
+		z-index: 2;
+	}
+}
+
+.blue-light {
+	background: linear-gradient(var(--ang, 180deg), #5aa0f1, #5497ee);
+	&:hover {
+		background: linear-gradient(var(--ang, 180deg), #5a71f1, #546bee);
+		z-index: 2;
+	}
+}

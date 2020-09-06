@@ -1,0 +1,29 @@
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg) scale(1);
+    }
+    50% {
+        -webkit-transform: rotate(180deg) scale(2);
+    }
+    to {
+        -webkit-transform: rotate(359deg) scale(1);
+    }
+}
+
+.spiner{
+	position: absolute;
+	width: 200px;
+	background-color: #fff;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5%;
+	padding: 20px;
+    text-align: center;
+    >img {
+        animation: rotation 2s infinite linear;
+    }
+}
+
+
+

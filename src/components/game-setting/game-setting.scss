@@ -1,0 +1,83 @@
+@mixin hover {
+	&:hover {
+		box-shadow: 0 0 13px rgba(0,0,0,0.6);
+		transition: 0.5s all;
+		text-decoration: none;
+	}
+}
+
+.game-setting {
+	max-width: 900px;
+	margin: 30px auto;
+	padding: 20px;
+	text-align: center;
+	background: linear-gradient(var(--ang, 180deg), #91fab0, #698bd4);
+	&__instruction, &__teams ,&__questions {
+		padding: 8px;
+		background-color: #fff;
+		border-radius: 1vmin;
+		margin-bottom: 15px;
+		@include hover;
+	}
+	&__header, &__subheader {
+		font-family: 'Bree Serif', serif;
+		margin-bottom: 15px;
+	}
+	&__teams {
+		&_chose {
+			background-color: transparent;
+			color: #0a91ab;
+			border: 5px solid transparent;
+			border-radius: 16px;
+			padding: 6px 18px 6px 18px;
+			font-size: 1.4em;
+			font-family: 'Bree Serif';
+			transition: all .2s;
+			outline: none;
+			&:focus {
+				outline:none;
+			}
+		}
+	}
+	&__questions {
+		&_chose {
+			background-color: transparent;
+			color: #0a91ab;
+			border: 5px solid transparent;
+			border-radius: 16px;
+			padding: 6px 18px 6px 18px;
+			font-size: 1.4em;
+			font-family: 'Bree Serif';
+			transition: all .2s;
+			outline: none;
+			&:focus {
+				outline:none;
+			}
+		}
+	}
+	&__play {
+		display: block;
+		margin: 0 auto;
+		font-family: 'Bree Serif', serif;
+		font-size: 1.2em;
+		line-height: 35px;
+		margin-top: 15px;
+		background: #c83d30;
+		color: #fff;
+		height: 40px;
+		width: 100px;
+		border-radius: 25px;
+		@include hover;
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+.mode-opt-active {
+	outline: 0;
+    transition: all .2s;
+    border: 5px solid #fac564;
+    color: #0a91ab;
+    box-shadow: 0 3px 1px 0 rgba(0,0,0,.1), 0 3px 1px 0 rgba(0,0,0,.1), 0 3px 1px 0 rgba(0,0,0,.14) inset;
+}

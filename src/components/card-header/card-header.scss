@@ -1,0 +1,31 @@
+.header {
+    margin: 0 auto;
+    padding: 5px 5px;
+    display: flex;
+    background-color: rgb(8, 185, 103);
+    justify-content: space-around;
+    height: 120px;
+    &-team {
+        margin: 0 20px;
+        text-align: center;
+        &__name {
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 30px;
+            font-weight: 700;
+            color: #fff;
+            padding: 0 10px;
+            &_active {
+                transition: .5s all;
+                font-size: 35px;
+                background-color: rgb(211, 35, 35);
+            }
+        }
+        &__score {
+            font-family: 'Balsamiq Sans', cursive;
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+    }
+}

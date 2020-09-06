@@ -1,0 +1,25 @@
+.error-indicator {
+	position: absolute;
+	width: 500px;
+	background-color: #fff;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5%;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: .5s all;
+	text-align: center;
+	&:hover {
+		box-shadow: 0 0 30px red;
+	}
+	div {
+		font-size: 20px;
+	}
+	&__confuse {
+		display: block;
+		font-size: 24px;
+		font-weight: 500;
+		margin: 5px;
+	}
+}

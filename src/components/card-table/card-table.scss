@@ -1,0 +1,29 @@
+.card-table {
+    display: grid;
+    width: 100%;
+    padding: 15px 20px;
+    height: calc(100% - 120px);
+    
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-table > div {
+    height: 100%;
+    // width: 25%;
+}
+
+.eight, .sixteen {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nine {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fifteen {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.twenty_four {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;;
+}
