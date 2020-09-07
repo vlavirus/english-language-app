@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.fa183448.chunk.css",
-    "main.js": "./static/js/main.211fc98f.chunk.js",
-    "main.js.map": "./static/js/main.211fc98f.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.36c40296.js",
-    "runtime-main.js.map": "./static/js/runtime-main.36c40296.js.map",
-    "static/js/2.a9ecdd4a.chunk.js": "./static/js/2.a9ecdd4a.chunk.js",
-    "static/js/2.a9ecdd4a.chunk.js.map": "./static/js/2.a9ecdd4a.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.a2bb9ee929a8557f3e1158076318ca3c.js": "./precache-manifest.a2bb9ee929a8557f3e1158076318ca3c.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.fa183448.chunk.css.map": "./static/css/main.fa183448.chunk.css.map",
-    "static/js/2.a9ecdd4a.chunk.js.LICENSE.txt": "./static/js/2.a9ecdd4a.chunk.js.LICENSE.txt",
-    "static/media/error.gif": "./static/media/error.c0bb6ad5.gif",
-    "static/media/lnr-eye.svg": "./static/media/lnr-eye.221beeef.svg",
-    "static/media/home-header.scss": "./static/media/lnr-home.7a50be5d.svg",
-    "static/media/okey.svg": "./static/media/okey.d4f97e0b.svg",
-    "static/media/shaq.gif": "./static/media/shaq.4fd7ac67.gif",
-    "static/media/wrong.svg": "./static/media/wrong.dea87aef.svg"
+    "main.css": "/english-language-app/static/css/main.702dde73.chunk.css",
+    "main.js": "/english-language-app/static/js/main.ebbbc228.chunk.js",
+    "main.js.map": "/english-language-app/static/js/main.ebbbc228.chunk.js.map",
+    "runtime-main.js": "/english-language-app/static/js/runtime-main.65b7aeb5.js",
+    "runtime-main.js.map": "/english-language-app/static/js/runtime-main.65b7aeb5.js.map",
+    "static/js/2.6d7e50ef.chunk.js": "/english-language-app/static/js/2.6d7e50ef.chunk.js",
+    "static/js/2.6d7e50ef.chunk.js.map": "/english-language-app/static/js/2.6d7e50ef.chunk.js.map",
+    "index.html": "/english-language-app/index.html",
+    "precache-manifest.9b209826f5920aad103d8483b16f1ddc.js": "/english-language-app/precache-manifest.9b209826f5920aad103d8483b16f1ddc.js",
+    "service-worker.js": "/english-language-app/service-worker.js",
+    "static/css/main.702dde73.chunk.css.map": "/english-language-app/static/css/main.702dde73.chunk.css.map",
+    "static/js/2.6d7e50ef.chunk.js.LICENSE.txt": "/english-language-app/static/js/2.6d7e50ef.chunk.js.LICENSE.txt",
+    "static/media/error.gif": "/english-language-app/static/media/error.c0bb6ad5.gif",
+    "static/media/lnr-eye.svg": "/english-language-app/static/media/lnr-eye.221beeef.svg",
+    "static/media/home-header.scss": "/english-language-app/static/media/lnr-home.7a50be5d.svg",
+    "static/media/okey.svg": "/english-language-app/static/media/okey.d4f97e0b.svg",
+    "static/media/shaq.gif": "/english-language-app/static/media/shaq.4fd7ac67.gif",
+    "static/media/wrong.svg": "/english-language-app/static/media/wrong.dea87aef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36c40296.js",
-    "static/js/2.a9ecdd4a.chunk.js",
-    "static/css/main.fa183448.chunk.css",
-    "static/js/main.211fc98f.chunk.js"
+    "static/js/runtime-main.65b7aeb5.js",
+    "static/js/2.6d7e50ef.chunk.js",
+    "static/css/main.702dde73.chunk.css",
+    "static/js/main.ebbbc228.chunk.js"
   ]
 }
