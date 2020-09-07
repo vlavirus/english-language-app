@@ -4,11 +4,14 @@
     background-color: #08b967;
     text-align: center;
     &__greeting {
+        position: relative;
         font-family: 'Balsamiq Sans', cursive;
         font-size: 40px;
         font-weight: 700;
         color: #fff;
-        margin-top: 20px;
+        top: 35%;
+        transform: translateY(-50%);
+        // margin-top: 20px;
     }
 }
 
@@ -20,12 +23,14 @@
     padding: 10px 20px;
     &-icons {
         &__icon {
-            margin: 0 10px;
+            margin: 0 4px;
+            font-size: 10px;
             font-weight: 500;
             width: 30px;
             height: 30px;
             color: #969595;
             text-decoration: none;
+
             // line-height: 17px;
             &:hover {
                 color: #ffffff;
@@ -59,4 +64,15 @@
             }
         }
     }
+}
+
+@media(max-width: 576px) {
+    .header-home {
+        height: 100px;
+        &__greeting {
+            font-size: 20px;
+            top: 25%;
+        }
+    }
+    
 }

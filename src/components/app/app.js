@@ -1,7 +1,8 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import {HomePage, GamePage} from '../pages';
+import {Route, Switch, useRouteMatch} from 'react-router-dom';
+import {HomePage, GamePage } from '../pages';
 
+import './app.css';
 
 const App = () => {
 	return (
