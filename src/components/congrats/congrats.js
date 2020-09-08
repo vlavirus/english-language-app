@@ -19,9 +19,9 @@ const Congrats = ({cardLeft, players}) => {
 	
 	if (cardLeft === 0) {
 		let winner = 'Winner Team ',
-			draw = checkEqual(players);
+			scoreWinner = players[players.indexOf( Math.max.apply(null, players))]
 
-		if (draw === 0) {
+		if (players.filter((item) => item === scoreWinner).length === 1) {
 			winner += `${players.indexOf( Math.max.apply(null, players)) + 1}!`
 		} else {
 			winner = 'Draw!!'
