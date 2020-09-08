@@ -1,10 +1,5 @@
-$w: 13em;
-$h: 19em;
-$f: $h/$w;
-$n: 7;
-$g: 1em;
-$c0: #fac691;
-$c1: #829fb1;
+$c0: #91fab0;
+$c1: #698bd4;
 
 @mixin hover {
 	&:hover {
@@ -27,7 +22,6 @@ $c1: #829fb1;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	min-height: 360px;
 	margin: 0 auto;
 	text-align: center;
 	background: linear-gradient(var(--ang, 180deg), $c0, $c1);
@@ -76,7 +70,6 @@ $c1: #829fb1;
 		}
 	}
 	&-answer {
-		min-height: 100px;
 		margin: 0 40px;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		border-radius: 10px;
@@ -91,9 +84,9 @@ $c1: #829fb1;
 	&-control {
 		display: flex;
 		width: 100%;
-		position: absolute;
 		bottom: 10px;
 		justify-content: center;
+		margin: 20px 0;
 	}
 	&-check, &-reject, &-correct{
 		bottom: 10px;

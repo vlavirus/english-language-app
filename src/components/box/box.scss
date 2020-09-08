@@ -4,7 +4,7 @@ $c1: #829fb1;
 .box {
 	border-radius: 25px;
 	font-family: 'Balsamiq Sans', cursive;
-	font-size: 80px;
+	font-size: 9vmin;
 	line-height: 130px;
 	font-weight: 700;
 	text-align: center;
@@ -32,5 +32,13 @@ $c1: #829fb1;
 	&:hover {
 		background: linear-gradient(var(--ang, 180deg), #5a71f1, #546bee);
 		z-index: 2;
+	}
+}
+
+
+@media(max-width: 576px) {
+	.box {
+		border: 2px solid;
+		border-radius: 10px;
 	}
 }

@@ -1,31 +1,48 @@
 .header {
-    margin: 0 auto;
-    padding: 5px 5px;
-    display: flex;
-    background-color: rgb(8, 185, 103);
-    justify-content: space-around;
-    height: 120px;
-    &-team {
-        margin: 0 20px;
-        text-align: center;
-        &__name {
-            font-family: 'Balsamiq Sans', cursive;
-            font-size: 30px;
-            font-weight: 700;
-            color: #fff;
-            padding: 0 10px;
-            &_active {
-                transition: .5s all;
-                font-size: 35px;
-                background-color: rgb(211, 35, 35);
-            }
-        }
-        &__score {
-            font-family: 'Balsamiq Sans', cursive;
-            font-size: 40px;
-            font-weight: 700;
-            color: #fff;
-        }
+	margin: 0 auto;
+	padding: 5px 5px;
+	display: flex;
+	background-color: rgb(8, 185, 103);
+	justify-content: space-around;
+	height: 14vmin;
+	&-team {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		margin: 0 20px;
+		text-align: center;
+		height: fit-content;
+		&__name {
+			font-family: 'Balsamiq Sans', cursive;
+			font-weight: 700;
+			font-size: 4vmin;
+			color: #fff;
+			padding: 0 10px;
+			&_active {
+				transition: .5s all;
+				font-size: 5vmin;
+				background-color: rgb(211, 35, 35);
+			}
+		}
+		&__score {
+			font-family: 'Balsamiq Sans', cursive;
+			font-size: 4.5vmin;
+			font-weight: 700;
+			color: #fff;
+		}
+	}
+}
 
-    }
+@media(max-width: 576px) {
+	.header {
+		height: 17vmin;
+		&-team {
+			&__name {
+				font-style: 4vmin;
+				&_active {
+					font-size: 5vmin;
+				}
+			}
+		}
+	}
 }

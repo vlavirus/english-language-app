@@ -3,8 +3,6 @@
     width: 100%;
     padding: 15px 20px;
     height: calc(100% - 120px);
-    
-    // grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .card-table > div {
@@ -26,4 +24,10 @@
 
 .twenty_four {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;;
+}
+
+@media(max-width: 576px) {
+    .card-table {
+        padding: 7px 10px;
+    }
 }
