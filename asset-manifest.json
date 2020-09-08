@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/english-language-app/static/css/main.f697615a.chunk.css",
-    "main.js": "/english-language-app/static/js/main.de1c0539.chunk.js",
-    "main.js.map": "/english-language-app/static/js/main.de1c0539.chunk.js.map",
+    "main.css": "/english-language-app/static/css/main.d159718e.chunk.css",
+    "main.js": "/english-language-app/static/js/main.27ad3bb3.chunk.js",
+    "main.js.map": "/english-language-app/static/js/main.27ad3bb3.chunk.js.map",
     "runtime-main.js": "/english-language-app/static/js/runtime-main.65b7aeb5.js",
     "runtime-main.js.map": "/english-language-app/static/js/runtime-main.65b7aeb5.js.map",
     "static/js/2.6d7e50ef.chunk.js": "/english-language-app/static/js/2.6d7e50ef.chunk.js",
     "static/js/2.6d7e50ef.chunk.js.map": "/english-language-app/static/js/2.6d7e50ef.chunk.js.map",
     "index.html": "/english-language-app/index.html",
-    "precache-manifest.2907659ad8c1cfc6018a393e2bca65bb.js": "/english-language-app/precache-manifest.2907659ad8c1cfc6018a393e2bca65bb.js",
+    "precache-manifest.164a0ba71dd2edd9e5100e6e84fdb7fb.js": "/english-language-app/precache-manifest.164a0ba71dd2edd9e5100e6e84fdb7fb.js",
     "service-worker.js": "/english-language-app/service-worker.js",
-    "static/css/main.f697615a.chunk.css.map": "/english-language-app/static/css/main.f697615a.chunk.css.map",
+    "static/css/main.d159718e.chunk.css.map": "/english-language-app/static/css/main.d159718e.chunk.css.map",
     "static/js/2.6d7e50ef.chunk.js.LICENSE.txt": "/english-language-app/static/js/2.6d7e50ef.chunk.js.LICENSE.txt",
     "static/media/error.gif": "/english-language-app/static/media/error.c0bb6ad5.gif",
+    "static/media/home-header.scss": "/english-language-app/static/media/news.82e69d80.svg",
     "static/media/lnr-eye.svg": "/english-language-app/static/media/lnr-eye.221beeef.svg",
-    "static/media/home-header.scss": "/english-language-app/static/media/lnr-home.7a50be5d.svg",
     "static/media/okey.svg": "/english-language-app/static/media/okey.d4f97e0b.svg",
     "static/media/shaq.gif": "/english-language-app/static/media/shaq.4fd7ac67.gif",
     "static/media/wrong.svg": "/english-language-app/static/media/wrong.dea87aef.svg"
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.65b7aeb5.js",
     "static/js/2.6d7e50ef.chunk.js",
-    "static/css/main.f697615a.chunk.css",
-    "static/js/main.de1c0539.chunk.js"
+    "static/css/main.d159718e.chunk.css",
+    "static/js/main.27ad3bb3.chunk.js"
   ]
 }

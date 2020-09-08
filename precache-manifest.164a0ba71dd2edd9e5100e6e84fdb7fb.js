@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5e25cffab51e37901187fc6e88199b4",
+    "revision": "94871922cee9b711de3f02d1b00463e2",
     "url": "/english-language-app/index.html"
   },
   {
-    "revision": "acb0f81805acbd1bfed4",
-    "url": "/english-language-app/static/css/main.f697615a.chunk.css"
+    "revision": "449af37630e24b057b1e",
+    "url": "/english-language-app/static/css/main.d159718e.chunk.css"
   },
   {
     "revision": "32f1bae413ec02c02c23",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/english-language-app/static/js/2.6d7e50ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "acb0f81805acbd1bfed4",
-    "url": "/english-language-app/static/js/main.de1c0539.chunk.js"
+    "revision": "449af37630e24b057b1e",
+    "url": "/english-language-app/static/js/main.27ad3bb3.chunk.js"
   },
   {
     "revision": "28f4f05f1c0c1c2d87ce",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0bb6ad5fcf475124e1a023abe971f67",
     "url": "/english-language-app/static/media/error.c0bb6ad5.gif"
+  },
+  {
+    "revision": "1bf6e14364720e009e6c1fac0ad25ee7",
+    "url": "/english-language-app/static/media/games.1bf6e143.svg"
   },
   {
     "revision": "221beeef4e0428f652180fcdb03440c7",
@@ -38,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7a50be5d7db636654f5ab6a1be3db0d4",
     "url": "/english-language-app/static/media/lnr-home.7a50be5d.svg"
+  },
+  {
+    "revision": "82e69d80f35a5c908a76966757ce83f6",
+    "url": "/english-language-app/static/media/news.82e69d80.svg"
   },
   {
     "revision": "d4f97e0b47980a6283b76e89a200180a",
