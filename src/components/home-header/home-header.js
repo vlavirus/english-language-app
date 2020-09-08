@@ -26,7 +26,7 @@ const HomeHeader = () => {
 					</a>
 				</div>
 				<div className="navigation-functions">
-					<a href="#/" c="navigation-functions__button">Contact us</a>
+					<a href="#/" className="navigation-functions__button">Contact us</a>
 					<a href="#/" className="navigation-functions__button">Sign in</a>
 					<a href="#/" className="navigation-functions__button">Make games</a>
 				</div>
