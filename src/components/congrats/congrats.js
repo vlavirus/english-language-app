@@ -34,7 +34,7 @@ const Congrats = ({cardLeft, players}) => {
 						<div className="congrats__value">GAME OVER</div>
 					</div>
 					<div className="congrats__image">
-						<img src={shaqImg} alt="congrats-img" className="congrats-img"/>
+						<img src={shaqImg} alt="congrats-img" className="congrats__image_animated"/>
 					</div>
 				</div>
 				<div className="congrats__descr">{winner}</div>
@@ -45,7 +45,7 @@ const Congrats = ({cardLeft, players}) => {
 		)
 	} else {
 		return (
-			<div></div>
+			<React.Fragment></React.Fragment>
 		)
 	}
 }

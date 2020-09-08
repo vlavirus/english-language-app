@@ -1,18 +1,20 @@
 import React, {Component} from 'react';
-import './card-item.scss';
 import {connect} from 'react-redux';
+import {hideQuestion, addPoints, defaultCard, nextPlayer} from '../../actions';
+
 import showIcon from './lnr-eye.svg';
 import wrongIcon from './wrong.svg';
 import acceptIcorn from './okey.svg';
-import {hideQuestion, addPoints, defaultCard, nextPlayer} from '../../actions';
 
+import './card-item.scss';
+import { Fragment } from 'react';
 class CardItemContainer extends Component {
 
 	showAnswer() {
-		document.querySelector('.card-answer').classList.remove('hide');
-		document.querySelector('.card-check').classList.add('hide');
-		document.querySelector('.card-reject').classList.remove('hide');
-		document.querySelector('.card-correct').classList.remove('hide');
+		document.querySelector('.card__answer').classList.remove('hide');
+		document.querySelector('.card__check').classList.add('hide');
+		document.querySelector('.card__reject').classList.remove('hide');
+		document.querySelector('.card__correct').classList.remove('hide');
 	}
 
 	render() {
@@ -35,7 +37,7 @@ class CardItemContainer extends Component {
 		} else if (currentQuestionStatus === false) {
 			return <HideCardItem/>
 		} else {
-			return <div></div>
+			return <React.Fragment></React.Fragment>
 		}
 	}
 }
@@ -49,45 +51,43 @@ const CardItem = ({question,
 				   defaultCard,
 				   nextPlayer}) => {
 	return (
-		<div className="overlay-black animate__animated animate__fadeInDown"
-			//  onClick={() => hideQuestion()}
-			 >
+		<div className="overlay_black animate__animated animate__fadeInDown" >
 			<div className="card animate__animated animate__fadeInDown">
-				<div className="card-question">
-					<div className="card-question__header">
-						<div className="card-question__value">15</div>
-						<div className="card-question__close"
+				<div className="card__question">
+					<div className="card__header">
+						<div className="card__value">15</div>
+						<div className="card__close"
 						onClick={() => hideQuestion()}>&times;</div>
 					</div>
-					<div className="card-question__text">{question}</div>
+					<div className="card__text">{question}</div>
 				</div>
-				<div className="card-answer animate__animated animate__fadeInUp hide">{answer}</div>
-				<div className="card-control">
-					<button className="card-check"
+				<div className="card__answer animate__animated animate__fadeInUp hide">{answer}</div>
+				<div className="card__control">
+					<button className="card__check"
 						onClick={showAnswer}>
-						<img src={showIcon} alt="card-check__icon"/>
+						<img src={showIcon} alt="card__icon"/>
 						<span>Check</span>
 					</button>
 					<button 
-						className="card-reject animate__animated animate__fadeInLeft faster hide"
+						className="card__reject animate__animated animate__fadeInLeft faster hide"
 						onClick={() => {
 							defaultCard(indexCurrentQuestion)
 							hideQuestion()
 							nextPlayer()
 						}}
 						>
-						<img src={wrongIcon} alt="card-check__icon"/>
+						<img src={wrongIcon} alt="card__icon"/>
 						Wrong
 					</button>
 					<button 
-						className="card-correct animate__animated animate__fadeInRight hide"
+						className="card__correct animate__animated animate__fadeInRight hide"
 						onClick={() => {
 							addPoints(15)
 							defaultCard(indexCurrentQuestion)
 							hideQuestion()
 							nextPlayer()
 						}}>
-						<img src={acceptIcorn} alt="card-check__icon"/>
+						<img src={acceptIcorn} alt="card__icon"/>
 						Correct
 					</button>
 				</div>

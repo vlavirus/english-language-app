@@ -7,11 +7,11 @@ $c1: #698bd4;
 	}
 }
 
-.overlay-black {
+.overlay_black {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	top: 17vmin;
+	top: 14vmin;
 	background-color: rgba(0,0,0, .56);
 	animation-duration: .3s;
 	z-index: 3;
@@ -27,49 +27,49 @@ $c1: #698bd4;
 	background: linear-gradient(var(--ang, 180deg), $c0, $c1);
 	border-radius: 0;
 	animation-duration: .3s;
-	&-question {
+	&__question {
 		margin: 20px 40px;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		border-radius: 10px;
 		@include hover;
-		&__header {
-			position: relative;
-			background-color: rgb(8, 185, 103);
-			height: 50px;
-			border-top-left-radius: 10px;
-			border-top-right-radius: 10px;
-			padding: 10px;
-		}
-		&__value {
-			font-family: 'Balsamiq Sans', cursive;
-			font-size: 30px;
-			line-height: 35px;
-			font-weight: 700;
-			color: #fff;
-		}
-		&__close {
-			position: absolute;
-			top: -18px;
-			right: 5px;
-			font-size: 45px;
-			font-weight: 900;
-			color: rgb(10, 150, 84);
-			transition: .2s ease-in-out;
-			cursor: pointer;
-			&:hover {
-				color: rgb(7, 83, 48);
-			}
-		}
-		&__text {
-			padding: 10px;
-			font-size: 5vmin;
-			font-family: 'Balsamiq Sans', cursive;
-			background-color: #fff;
-			border-bottom-left-radius: 10px;
-			border-bottom-right-radius: 10px;
+	}
+	&__header {
+		position: relative;
+		background-color: rgb(8, 185, 103);
+		height: 50px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		padding: 10px;
+	}
+	&__value {
+		font-family: 'Balsamiq Sans', cursive;
+		font-size: 30px;
+		line-height: 35px;
+		font-weight: 700;
+		color: #fff;
+	}
+	&__close {
+		position: absolute;
+		top: -18px;
+		right: 5px;
+		font-size: 45px;
+		font-weight: 900;
+		color: rgb(10, 150, 84);
+		transition: .2s ease-in-out;
+		cursor: pointer;
+		&:hover {
+			color: rgb(7, 83, 48);
 		}
 	}
-	&-answer {
+	&__text {
+		padding: 10px;
+		font-size: 5vmin;
+		font-family: 'Balsamiq Sans', cursive;
+		background-color: #fff;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	&__answer {
 		margin: 0 40px;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		border-radius: 10px;
@@ -81,14 +81,14 @@ $c1: #698bd4;
 		word-wrap: break-word;
 		@include hover;
 	}
-	&-control {
+	&__control {
 		display: flex;
 		width: 100%;
 		bottom: 10px;
 		justify-content: center;
 		margin: 20px 0;
 	}
-	&-check, &-reject, &-correct{
+	&__check, &__reject, &__correct{
 		bottom: 10px;
 		width: 160px;
 		font-size: 20px;
@@ -111,7 +111,7 @@ $c1: #698bd4;
 			margin-right: 5px;
 		}
 	}
-	&-reject {
+	&__reject {
 		background-color: red;
 		left: 40%;
 		transform: translateX(-50%);
@@ -120,7 +120,7 @@ $c1: #698bd4;
 			width: 20px;
 		}
 	}
-	&-correct {
+	&__correct {
 		padding: 10px 30px;
 		right: 40%;
 		transform: translateX(-50%);
@@ -132,4 +132,10 @@ $c1: #698bd4;
 
 .hide {
 	display: none;
+}
+
+@media(max-width: 576px) {
+	.overlay_black {
+		top: 14vmin;
+	}
 }
